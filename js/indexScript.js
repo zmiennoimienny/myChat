@@ -23,4 +23,14 @@ $(document).ready(function(){
 		$(".registrationSubWindow").hide();
 	});
 
+	$("#subMenuLoginButton").click(function(){
+		LoginSuccessful();
+	});
 });
+
+function LoginSuccessful(){
+
+	$(".loginSubWindow").remove();
+	$(".registrationSubWindow").remove();
+	$(".jumbotron").remove();
+}

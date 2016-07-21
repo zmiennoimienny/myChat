@@ -21,7 +21,7 @@
 				  <input type="text" class="form-control" placeholder="Hasło" aria-describedby="basic-addon1">
 				</div>
 				  <br>
-				  <button type="button" class="btn btn-primary">Zaloguj się</button>
+				  <button type="button" id="subMenuLoginButton" class="btn btn-primary">Zaloguj się</button>
 				  <button id="closeLoginSubWindow" type="button" class="btn btn-default">Wstecz</button>
 			  </div>
 			</div>
