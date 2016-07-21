@@ -1,0 +1,41 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin:0 auto;
+	padding: 0;
+	background-color: red;
+}
+#left-menu
+{
+	width: 18%;
+	height: 100%;
+	background-color: #4d394b;
+	float:left;
+}
+#content
+{
+	width: 100%;
+	height: 100%;
+	background-color: #eeeeee;
+	text-align: center;
+}
+#content .jumbotron
+{
+	
+  position: relative;
+  top: 50%;
+  margin-left:18%;
+  width: 82%;
+  transform: translateY(-50%);
+
+}
+.loginSubWindow
+{
+	position:absolute; 
+	width:20%;
+}
+.registrationSubWindow
+{
+	position:absolute; 
+	width:20%;
+}
